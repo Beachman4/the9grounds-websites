@@ -12,6 +12,8 @@
     "socket.io": "^1.4.8",
     "vue-router": "^0.7.13",
     "ioredis": "^2.2.0"
-
+  },
+  "dependencies": {
+    "vue-resource": "^0.9.3"
   }
 }
