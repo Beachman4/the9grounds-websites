@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::group(['domain' => '{domain}', 'middleware' => ['web', 'App\Http\Middleware\WebsiteExists']], function() {
+    Route::get('/', 'WebsiteController@index');
+    Route::any( '(.*)', 'WebsiteController@startNavigation');
 });
