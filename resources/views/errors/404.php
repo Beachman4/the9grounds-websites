@@ -30,7 +30,7 @@
                     <p class="lead">This website was not found.  Click below to created it!</p>
                     <hr class="m-y-2">
                     <p class="lead">
-                        <a class="btn btn-primary-outline btn-lg" href="http://the9grounds.io" role="button">Create Website</a>
+                        <a class="btn btn-primary-outline btn-lg" href="http://the9grounds.com" role="button">Create Website</a>
                     </p>
                 </div>
             </div>
