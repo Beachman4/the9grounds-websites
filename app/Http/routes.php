@@ -11,7 +11,7 @@
 |
 */
 
-Route::group(['domain' => '{domain}', 'middleware' => ['web', 'App\Http\Middleware\WebsiteExists']], function() {
+Route::group(['domain' => '{domain}.the9grounds.com', 'middleware' => ['web', 'App\Http\Middleware\WebsiteExists']], function() {
     Route::get('/', 'WebsiteController@index');
     Route::any( '(.*)', 'WebsiteController@startNavigation');
 });
